@@ -17,7 +17,7 @@ def merge_ranges(range_list):
     return final_list
 
 if __name__ == '__main__':
-    print(merge_ranges(  [(0, 1), (3, 5), (4, 8), (10, 12), (9, 10)]))
+    print(merge_ranges(  [(0, 1), (3, 5), (6, 7), (4, 8), (10, 12), (9, 10)]))
     print(merge_ranges(  [(1, 2), (2, 3)]))
     print(merge_ranges(  [(1, 5), (2, 3)]))
     print(merge_ranges([(1, 10), (2, 6), (3, 5), (7, 9)]))
